@@ -1,7 +1,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     overflow:hidden;
-    background-color: antiquewhite;
+    background-color: rgba(244, 159, 173, 0.655);
 
 }
 
@@ -28,7 +28,9 @@ img{
     padding:5px;
     padding-inline: 10px;
     cursor:pointer;
-    background-color: green;
+    background-color: rgb(250, 107, 131);
+    border:1px solid rgb(245, 125, 145);
+    animation:jumpy 1s infinite linear;
     color:white;
 }
 
@@ -40,6 +42,19 @@ img{
     color:white;
     background-color: red;
     cursor:pointer;
-    top:65%;
+    top:70%;
     left:55%;
+}
+
+
+@keyframes jumpy{
+    0%{
+        transform:translateY(0px);
+    }
+    50%{
+        transform:translateY(-11px);
+    }
+    100%{
+        transform:translateY(0px);
+    }
 }

@@ -1,6 +1,6 @@
 document.getElementById("no").addEventListener("mouseenter", function(){
     const pic=["cat1.jpg", "cat2.jpg", "cat3.jpg","cat4.jpg"];
-    const msg=["noo please","i will be sad :(","dont say noo","pweaseee"];
+    const msg=["noo please","i will be sad :(","dont say noo","pweaseee","i love you :("," erally really love you :("];
     var x=Math.random()*1000;
     var y=Math.random()*1000;
     while (x>500|| y>600){

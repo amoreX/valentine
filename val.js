@@ -18,5 +18,5 @@ document.getElementById("no").addEventListener("mouseenter", function(){
 })
 
 document.getElementById("yes").addEventListener("click",function(){
-    
+    window.location.href = "https://amorex.github.io/valnetinroute/";
 })

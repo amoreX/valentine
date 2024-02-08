@@ -16,3 +16,7 @@ document.getElementById("no").addEventListener("mouseenter", function(){
     document.getElementById("no").style.left=x+"px";
     document.getElementById("no").style.top=y+"px";
 })
+
+document.getElementById("yes").addEventListener("click",function(){
+    
+})
